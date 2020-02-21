@@ -1,0 +1,29 @@
+// Стили, общие для всех страниц
+
+body {
+    font-family: $mainFont;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    color: $textColor;
+    &:hover {
+        color: $mainColor;
+        text-decoration: none;
+    }
+}
+
+.text-regular {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-small {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.is-opened-js {
+    display: block !important;
+}

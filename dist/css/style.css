@@ -1,0 +1,65 @@
+body {
+  font-family: "Geometria", sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+a {
+  color: #212121; }
+  a:hover {
+    color: #E30C13;
+    text-decoration: none; }
+
+.text-regular {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+.text-small {
+  font-size: 0.875rem;
+  line-height: 1.25rem; }
+
+.is-opened-js {
+  display: block !important; }
+
+.header {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08); }
+
+.header-top a {
+  color: #666666; }
+  .header-top a:hover {
+    color: #E30C13; }
+
+.header li {
+  list-style-type: none; }
+
+.header-top_spc {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 1rem; }
+
+.header-top-nav_link-spc {
+  margin-left: 2rem; }
+  .header-top-nav_link-spc:first-child {
+    margin-left: 2.65rem; }
+
+.header-top__mail_spc {
+  padding-left: 1.75rem; }
+
+.header_low {
+  color: #212121; }
+
+.header-catalogue {
+  margin: 0 auto; }
+
+.header-catalogue__item {
+  position: relative; }
+
+.header-catalogue__item_spc {
+  padding: 0.75rem 1.5rem; }
+
+.header-catalogue-sub {
+  display: none;
+  position: absolute;
+  left: -20px;
+  width: 160px; }
+
+.header-catalogue-sub__link {
+  padding: 0.75rem 1rem; }
