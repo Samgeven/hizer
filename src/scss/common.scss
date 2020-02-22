@@ -1,5 +1,12 @@
 // Стили, общие для всех страниц
 
+* {
+    transition: 0.2s;
+    &:hover {
+        transition: 0.2s;
+    }
+}
+
 body {
     font-family: $mainFont;
     font-size: 16px;
@@ -13,6 +20,16 @@ a {
         text-decoration: none;
     }
 }
+
+i {
+    font-family: 'fontawesome' !important;
+}
+
+.icon { 
+    width: 50px; 
+    height: 50px;
+    margin: .5em;
+  }
 
 .text-regular {
     font-size: 1rem;
