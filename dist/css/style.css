@@ -160,7 +160,7 @@ i {
   .header-top__mail::before {
     position: absolute;
     content: "";
-    background: url(/dist/img/ui/sprite.svg);
+    background: url("../../dist/img/ui/sprite.svg");
     width: 18px;
     height: 18px;
     left: 0px;
@@ -182,7 +182,7 @@ i {
     content: "";
     width: 10px;
     height: 6px;
-    background: url(/dist/img/ui/sprite.svg);
+    background: url(../../dist/img/ui/sprite.svg);
     background-position: -51px -2px;
     right: 3px;
     bottom: 19px; }

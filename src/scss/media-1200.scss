@@ -1,3 +1,14 @@
-.class {
-    text-shadow: none;
+@media (max-width: 1200px) {
+
+    .header-top-nav {
+        margin-right: -0.5rem;
+    }
+
+    .header-top-nav_link-spc:first-child {
+        margin-left: 3.9rem;
+    }
+
+    .header-top-logo {
+        margin-left: -0.75rem;
+    }
 }

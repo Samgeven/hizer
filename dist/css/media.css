@@ -1,5 +1,10 @@
-.class {
-  text-shadow: none; }
+@media (max-width: 1200px) {
+  .header-top-nav {
+    margin-right: -0.5rem; }
+  .header-top-nav_link-spc:first-child {
+    margin-left: 3.9rem; }
+  .header-top-logo {
+    margin-left: -0.75rem; } }
 
 @media (max-width: 992px) {
   .header_row {
@@ -52,7 +57,7 @@
     .menu-opened .header-top-nav__link:after {
       position: absolute;
       content: "";
-      background: url(/dist/img/ui/sprite.svg);
+      background: url(../../dist/img/ui/sprite.svg);
       width: 8px;
       height: 18px;
       background-position: -99px 65px;
@@ -65,7 +70,7 @@
     .menu-opened .header-catalogue__link:after {
       position: absolute;
       content: "";
-      background: url(/dist/img/ui/sprite.svg);
+      background: url(../../dist/img/ui/sprite.svg);
       width: 8px;
       height: 18px;
       background-position: -99px 65px;
@@ -94,7 +99,7 @@
     .menu-opened .header-catalogue-sub__item:after {
       position: absolute;
       content: "";
-      background: url(/dist/img/ui/sprite.svg);
+      background: url(../../dist/img/ui/sprite.svg);
       background-position: -99px 65px;
       transform: rotate(180deg);
       top: 18px;
