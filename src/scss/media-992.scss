@@ -1,5 +1,7 @@
 @media (max-width: 992px) {
 
+    // Стили для хэдера
+
     .header_row {
         display: none;
     }
@@ -161,5 +163,27 @@
 
     .menu-opened .header-catalogue-sub .header-catalogue-sub__link {
         padding: 0.75rem 1rem 0.75rem 1.5rem;
+    }
+
+    // Главная
+
+    .main-banner__img {
+        width: 270px;
+    }
+
+    .main-banner_wrp {
+        height: 350px;
+        padding-top: 2.5rem;
+        background-size: 660px;
+        background-position: 35px 100%;
+    }
+
+    .main-banner-descr__title {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .main-banner-descr_buttons {
+        margin-top: 1.5rem;
     }
 }

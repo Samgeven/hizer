@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.main-banner-descr_spc {
+    margin-top: 3rem;
+}
+
 .main-banner__img {
     mix-blend-mode: multiply;
 }
@@ -40,4 +44,30 @@
         top: 5px;
         right: -18px;
     }
+}
+
+.slick-next,
+.slick-prev {
+    width: 40px;
+    height: 40px;
+    top: 410px;
+    z-index: 90;
+    &:before {
+        background: url(../../dist/img/ui/slick-arrow.svg) no-repeat;
+        width: 40px;
+        height: 40px;
+        font-size: 42px;
+        opacity: 1;
+        color: transparent;
+    }
+}
+
+.slick-prev {
+    left: 95px;
+}
+
+.slick-next {
+    left: 151px;
+    top: 390px;
+    transform: rotate(180deg);
 }

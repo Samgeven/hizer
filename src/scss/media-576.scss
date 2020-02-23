@@ -1,0 +1,28 @@
+@media (max-width: 576px) {
+
+    // Стили для главной
+
+    .main-banner_wrp {
+        height: 433px;
+        background-size: 600px;
+        background-position: -150px 100%;
+        padding-top: 1rem;
+    }
+
+    .main-banner-descr_wrp {
+        flex-direction: column;
+    }
+
+    .main-banner__img {
+        order: 1;
+        width: 209px;
+    }
+
+    .main-banner-descr {
+        order: 2;
+    }
+
+    .main-banner-descr__link {
+        display: none;
+    }
+}

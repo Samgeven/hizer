@@ -1,5 +1,7 @@
 @media (max-width: 1199.9px) {
 
+    // Стили для хэдера
+
     .header-top-nav {
         margin-right: -0.5rem;
     }
@@ -10,5 +12,15 @@
 
     .header-top-logo {
         margin-left: -0.75rem;
+    }
+
+    // Стили для главной 
+
+    .slick-prev {
+        left: 0px;
+    }
+
+    .slick-next {
+        left: 56px;
     }
 }
