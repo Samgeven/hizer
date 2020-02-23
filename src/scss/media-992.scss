@@ -48,6 +48,10 @@
         padding: 0.75rem 1.5rem;
     }
 
+    .menu-opened .header-top-nav__link {
+        color: $textColor;
+    }
+
     .menu-opened .header-catalogue {
         display: flex;
         flex-direction: column;
@@ -57,7 +61,6 @@
 
     .menu-opened .header-top-nav {
         flex-direction: column;
-        color: $textColor !important;
         font-size: 1rem;
         line-height: 1.5rem;
         padding-top: 0.75rem;
@@ -158,6 +161,5 @@
 
     .menu-opened .header-catalogue-sub .header-catalogue-sub__link {
         padding: 0.75rem 1rem 0.75rem 1.5rem;
-        
     }
 }

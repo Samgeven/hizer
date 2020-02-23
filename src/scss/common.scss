@@ -21,15 +21,41 @@ a {
     }
 }
 
-i {
-    font-family: 'fontawesome' !important;
+h1 {
+    font-size: 2.25rem;
+    line-height: 3rem;
 }
 
-.icon { 
-    width: 50px; 
-    height: 50px;
-    margin: .5em;
-  }
+h2 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.btn {
+    padding: 0.4rem 1.5rem 0.5rem;
+    background-color: $mainColor;
+    color: #fff;
+    border-radius: 0;
+    &:hover {
+        background-color: $hoverColor;
+        color: #fff;
+    }
+}
 
 .text-regular {
     font-size: 1rem;

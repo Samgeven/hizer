@@ -1,0 +1,43 @@
+// Стили для главной страницы
+
+.main-banner {
+    position: relative;
+}
+
+.main-banner_wrp {
+    padding-top: 4rem;
+    margin: 0 auto;
+    height: 480px;
+    background: url(../../dist/img/banner/banner-bg.jpg) no-repeat 0 100%;
+}
+
+.main-banner-descr_wrp {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.main-banner__img {
+    mix-blend-mode: multiply;
+}
+
+.main-banner-descr__note {
+    color: $textDim;
+}
+
+.main-banner-descr_buttons {
+    margin-top: 2.5rem;
+}
+
+.main-banner-descr__link {
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: url(../../dist/img/ui/sprite.svg) -51px -2px;
+        transform: rotate(-90deg);
+        top: 5px;
+        right: -18px;
+    }
+}
