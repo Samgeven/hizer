@@ -1,5 +1,12 @@
 @media (max-width: 992px) {
 
+    // Общие стили
+
+    .good-item__img,
+    .good-item_text-wrp {
+        width: 156px;
+    }
+
     // Стили для хэдера
 
     .header_row {
@@ -195,5 +202,25 @@
 
     .main-banner-descr_buttons {
         margin-top: 1.5rem;
+    }
+
+    .popular-goods_row {
+        margin-top: 1.5rem;
+    }
+
+    .categories-item-col .categories-item_wrp,
+    .categories-item_wrp {
+        padding: 0.5rem;
+    }
+
+    .categories-item__img-link {
+        max-width: 120px;
+        float: right;
+        margin-top: -4rem;
+    }
+
+    .categories-item__link,
+    .categories-item-col .categories-item__link {
+        margin-top: 0.25rem;
     }
 }

@@ -19,6 +19,12 @@
         line-height: 1.5rem;
     }
 
+    .title_hl {
+        &:after {
+            top: 47px;
+        }
+    }
+
     // Стили для главной
 
     .main-banner_wrp {

@@ -66,6 +66,20 @@ h5 {
     }
 }
 
+.arrow-right { // Серая стрелка вправо у ссылок
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: url(../../dist/img/ui/sprite.svg) -51px -2px;
+        transform: rotate(-90deg);
+        top: 5px;
+        right: -18px;
+    }
+}
+
 .btn {
     padding: 0.4rem 1.5rem 0.5rem;
     background-color: $mainColor;
@@ -98,14 +112,12 @@ h5 {
     padding-bottom: 2rem;
 }
 
-.good-item_text-wrp {
-    margin-left: -0.75rem;
-}
 .good-item_wrp {
+    min-height: 400px;
     &:hover {
         box-shadow: $mainShadow;
         & .good-item__link-more {
-            visibility: visible;
+            display: block;
         }
     }
 }
@@ -119,11 +131,26 @@ h5 {
 }
 
 .good-item__link-more {
-    visibility: hidden;
+    display: none;
     color: $mainColor;
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 14px;
+        background: url(../../dist/img/ui/sprite.svg) -283px 0px;
+        left: 85px;
+        bottom: 2px;
+        transform: rotate(-90deg);
+    }
 }
 
 .good-item__img {
-    width: 100%;
+    width: 207px;
     height: auto;
+}
+
+.good-item_text-wrp {
+    width: 207px;
 }

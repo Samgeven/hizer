@@ -85,10 +85,6 @@
     margin-bottom: 1rem;
 }
 
-.popular-goods_wrp {
-    max-width: 1170px;
-}
-
 .popular-goods_title-spc {
     margin-left: 1rem;
 }
@@ -103,4 +99,74 @@
     top: -95px;
     left: auto;
     right: 0px;
+}
+
+/* Основные категории */
+
+.categories {
+    background-color: #F6F6F6;
+}
+
+.categories_wrp {
+    padding-top: 3.5rem;
+}
+
+.categories_row {
+    margin-top: 2.5rem;
+}
+
+.categories-item_wrp {
+    padding: 1.5rem;
+}
+
+.categories-item__img-link {
+    display: block;
+    margin-top: 2.5rem;
+}
+
+.categories-item__link {
+    margin-top: 2.5rem;
+}
+
+.categories-item-col .categories-item__link {
+    margin-top: 1rem;
+}
+
+.categories-item_text {
+    margin-top: 1.5rem;
+}
+
+.categories-item-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categories-item-col .categories-item__img-link {
+    margin-top: 0.75rem;
+    max-height: 180px;
+    height: auto;
+}
+
+.categories-item__img {
+    width: 100%;
+}
+
+.categories-item-col .categories-item__img {
+    width: 100%;
+    max-height: 180px;
+}
+
+.categories-item-col .categories-item_wrp {
+    padding: 0.5rem;
+}
+
+.categories-item__link.arrow-right {
+    &:after {
+        top: 6px;
+    }
+}
+
+.categories-item-col .categories-item__img-link {
+    margin-top: 0;
 }

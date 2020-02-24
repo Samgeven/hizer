@@ -1,5 +1,16 @@
 @media (max-width: 1199.9px) {
 
+    // Общие стили
+
+    .good-item__link-more {
+        visibility: visible;
+    }
+
+    .good-item__img,
+    .good-item_text-wrp {
+        width: 178px;
+    }
+
     // Стили для хэдера
 
     .header-top-nav {
@@ -22,5 +33,22 @@
 
     .slick-next {
         left: 56px;
+    }
+
+    .categories-item__img-link {
+        max-width: 208px;
+        margin-top: 1rem;
+    }
+
+    .categories-item__link {
+        margin-top: 1.5rem;
+    }
+
+    .categories-item-col .categories-item__img-link {
+        max-width: 120px;
+    }
+
+    .categories-item-col .categories-item_wrp {
+        padding: 1rem;
     }
 }

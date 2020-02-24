@@ -57,6 +57,14 @@ $(document).ready(function(){
               arrows: false,
               slidesToShow: 3,
             },
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 3,
+              variableWidth: true,
+              arrows: false,
+            },
           }
         ],
       })
