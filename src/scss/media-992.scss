@@ -20,6 +20,12 @@
         display: none;
     }
 
+    .header-catalogue-sub {
+        display: block;
+        left: -265px;
+        overflow-x: hidden;
+    }
+
     .menu-opened .header_row {
         display: flex;
         flex-direction: column;
@@ -121,7 +127,6 @@
 
     .menu-opened .header-catalogue-sub {
         height: 100%;
-        width: 0px;
         z-index: 10000;
         margin-left: -0.5rem;
         margin-top: 2rem;
@@ -155,9 +160,14 @@
             left: 25px;
             top: 14px;
         }
+        &:hover {
+            background-color: #fff;
+        }
     }
 
     .menu-opened .header-catalogue-sub.is-opened-js {
+        left: 0px;
+        transition: 0.2s;
         width: 272px;
     }
 

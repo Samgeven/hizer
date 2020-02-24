@@ -1,5 +1,7 @@
 // Стили для главной страницы
 
+/* Слайдер */
+
 .main-banner {
     position: relative;
 }
@@ -70,4 +72,10 @@
     left: 151px;
     top: 390px;
     transform: rotate(180deg);
+}
+
+/* Популярные товары */
+
+.popular-goods_spc {
+    margin-top: 4rem;
 }
