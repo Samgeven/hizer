@@ -51,6 +51,21 @@ h5 {
     font-weight: bold;
 }
 
+.title_hl { // Горизонтальная и красная линия под заголовком
+    position: relative;
+    border-bottom: 1px solid $whisperColor;
+    padding-bottom: 1rem;
+    &:after {
+        content: "";
+        position: absolute;
+        width: 65px;
+        height: 2px;
+        background-color: $mainColor;
+        left: 0px;
+        top: 51px;
+    }
+}
+
 .btn {
     padding: 0.4rem 1.5rem 0.5rem;
     background-color: $mainColor;
@@ -78,11 +93,37 @@ h5 {
 
 // Товары
 
+.good-item {
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
 .good-item_text-wrp {
     margin-left: -0.75rem;
 }
 .good-item_wrp {
     &:hover {
         box-shadow: $mainShadow;
+        & .good-item__link-more {
+            visibility: visible;
+        }
     }
+}
+
+.good-item__sizes {
+    color: $textDim;
+}
+
+.good-item__title {
+    font-weight: normal;
+}
+
+.good-item__link-more {
+    visibility: hidden;
+    color: $mainColor;
+}
+
+.good-item__img {
+    width: 100%;
+    height: auto;
 }
