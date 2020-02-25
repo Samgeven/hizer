@@ -79,6 +79,14 @@ h5 {
   background-color: #F2F2F2;
   border-radius: 100px; }
 
+.btn_show-more {
+  display: none;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #E30C13;
+  color: #E30C13;
+  font-weight: 500; }
+
 .text-regular {
   font-size: 1rem;
   line-height: 1.5rem; }
@@ -511,9 +519,13 @@ h5 {
     top: 4px;
     left: -6px; }
 
+.catalogue_row .good-item {
+  padding-top: 0rem; }
+
 .catalogue-categories {
   display: flex;
-  flex-flow: row nowrap; }
+  flex-flow: row nowrap;
+  overflow: scroll; }
 
 .catalogue-categories__link {
   white-space: nowrap; }
@@ -524,9 +536,35 @@ h5 {
 .btn_category + .btn_category {
   margin-left: 1rem; }
 
+.bottom-nav {
+  justify-content: space-between;
+  align-items: center; }
+
+.bottom-nav_spc {
+  padding: 2.5rem 0 4rem; }
+
 .pagination__link {
   padding: 0.5rem 1rem; }
 
 .pagination_active {
   background-color: #F6F6F6;
   border-radius: 4px; }
+  .pagination_active:hover {
+    color: inherit; }
+
+.pagination_next.arrow-right:after,
+.pagination_back.arrow-right:after {
+  background: url(../../dist/img/ui/sprite.svg) -440px 0;
+  transform: rotate(-180deg);
+  width: 18px;
+  height: 18px;
+  top: 13px;
+  right: -8px; }
+
+.pagination_back.arrow-right:after {
+  left: -8px;
+  top: 11px;
+  transform: rotate(0deg); }
+
+.bottom-nav__quantity {
+  color: #999999; }
