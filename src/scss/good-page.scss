@@ -1,0 +1,24 @@
+// Стили для страницы товара
+
+.good-gallery-preview {
+    display: flex;
+}
+
+.good-gallery-preview_spc {
+    margin-top: 0.5rem;
+}
+
+.good-gallery-preview__item + .good-gallery-preview__item {
+    margin-left: 0.5rem
+}
+
+.good-gallery-item__link {
+    display: block;
+    background: url(../../dist/img/ui/sprite.svg) no-repeat;
+    background-position: -480px 0;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 8px;
+    top: 10px;
+}

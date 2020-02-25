@@ -7,6 +7,18 @@
         width: 156px;
     }
 
+    .breadcrumb_hl {
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: $whisperColor;
+            top: 3.25rem;
+        }
+    }
+
     // Стили для хэдера
 
     .header_row {
@@ -298,18 +310,6 @@
     }
 
     // Каталог товаров
-
-    .catalogue {
-        position: relative;
-        &:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 1px;
-            background-color: $whisperColor;
-            top: 3rem;
-        }
-    }
 
     .breadcrumb {
         padding: 0.75rem 0;

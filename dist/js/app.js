@@ -1,5 +1,3 @@
-console.log("it actually works!");
-
 // Подменю
 
 $('.open-submenu-js').click(function() {
@@ -67,5 +65,35 @@ $(document).ready(function(){
             },
           }
         ],
-      })
+      });
+      $('.good-slider').slick({
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        arrows: false,
+        swipe: false,
+        fade: true,
+        cssEase: 'linear',
+        responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            dots: true,
+            swipe: false,
+            fade: false,
+          }
+        }],
+      });
+});
+
+$('.good-gallery-preview__item').click(function() {
+  $('.good-slider').slick('slickGoTo',$(this).index());
+})
+// Галерея
+
+$(document).ready(function() {
+    $("#lightgallery").lightGallery({
+    	selector: '.good-gallery-item__link'
+    }); 
 });

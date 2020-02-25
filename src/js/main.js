@@ -1,5 +1,3 @@
-console.log("it actually works!");
-
 // Подменю
 
 $('.open-submenu-js').click(function() {
