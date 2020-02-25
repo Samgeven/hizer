@@ -74,6 +74,11 @@ h5 {
     background-color: #B1060B;
     color: #fff; }
 
+.btn_category {
+  padding: 0.4rem 1rem 0.5rem;
+  background-color: #F2F2F2;
+  border-radius: 100px; }
+
 .text-regular {
   font-size: 1rem;
   line-height: 1.5rem; }
@@ -484,3 +489,44 @@ h5 {
     background: url(/dist/img/ui/sprite.svg) -240px 0px;
     left: -24px;
     top: 1px; }
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 1.5rem 0; }
+
+.breadcrumb-item a {
+  color: #666666; }
+  .breadcrumb-item a:hover {
+    text-decoration: underline; }
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 1rem; }
+  .breadcrumb-item + .breadcrumb-item:before {
+    content: "";
+    background: url(/dist/img/ui/sprite.svg) -400px 0px;
+    width: 14px;
+    height: 14px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 4px;
+    left: -6px; }
+
+.catalogue-categories {
+  display: flex;
+  flex-flow: row nowrap; }
+
+.catalogue-categories__link {
+  white-space: nowrap; }
+
+.catalogue-categories_spc {
+  margin-top: 1rem; }
+
+.btn_category + .btn_category {
+  margin-left: 1rem; }
+
+.pagination__link {
+  padding: 0.5rem 1rem; }
+
+.pagination_active {
+  background-color: #F6F6F6;
+  border-radius: 4px; }
