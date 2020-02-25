@@ -2,27 +2,27 @@
 
     // Стили для главной
 
-    .main-banner_wrp {
+    .main-slider_wrp {
         height: 433px;
         background-size: 600px;
         background-position: -150px 100%;
         padding-top: 1rem;
     }
 
-    .main-banner-descr_wrp {
+    .main-slider-descr_wrp {
         flex-direction: column;
     }
 
-    .main-banner__img {
+    .main-slider__img {
         order: 1;
         width: 209px;
     }
 
-    .main-banner-descr {
+    .main-slider-descr {
         order: 2;
     }
 
-    .main-banner-descr__link {
+    .main-slider-descr__link {
         display: none;
     }
 
@@ -51,5 +51,9 @@
 
     .catalogue .good-item__img {
         width: 100%;
+    }
+
+    .catalogue-categories {
+        overflow: scroll;
     }
 }

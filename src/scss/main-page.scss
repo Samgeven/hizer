@@ -2,39 +2,39 @@
 
 /* Слайдер */
 
-.main-banner {
+.main-slider {
     position: relative;
 }
 
-.main-banner_wrp {
+.main-slider_wrp {
     padding-top: 4rem;
     margin: 0 auto;
     height: 480px;
-    background: url(../../dist/img/banner/banner-bg.jpg) no-repeat 0 100%;
+    background: url(../../dist/img/slider/slider-bg.jpg) no-repeat 0 100%;
 }
 
-.main-banner-descr_wrp {
+.main-slider-descr_wrp {
     max-width: 920px;
     margin: 0 auto;
 }
 
-.main-banner-descr_spc {
+.main-slider-descr_spc {
     margin-top: 3rem;
 }
 
-.main-banner__img {
+.main-slider__img {
     mix-blend-mode: multiply;
 }
 
-.main-banner-descr__note {
+.main-slider-descr__note {
     color: $textDim;
 }
 
-.main-banner-descr_buttons {
+.main-slider-descr_buttons {
     margin-top: 2.5rem;
 }
 
-.main-banner-descr__link {
+.main-slider-descr__link {
     position: relative;
     &:after {
         position: absolute;
