@@ -368,7 +368,8 @@ h5 {
   padding-top: 3.5rem; }
 
 .categories_row {
-  margin-top: 2.5rem; }
+  margin-top: 2.5rem;
+  padding-bottom: 5.5rem; }
 
 .categories-item_wrp {
   padding: 1.5rem; }
@@ -397,7 +398,8 @@ h5 {
   height: auto; }
 
 .categories-item__img {
-  width: 100%; }
+  width: 100%;
+  max-width: 240px; }
 
 .categories-item-col .categories-item__img {
   width: 100%;
@@ -411,3 +413,74 @@ h5 {
 
 .categories-item-col .categories-item__img-link {
   margin-top: 0; }
+
+/* О компании */
+.company_wrp {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.company_row {
+  margin-top: 2.5rem; }
+
+.company-item_wrp {
+  height: 452px;
+  background: url(../../dist/img/company/history.jpg) no-repeat;
+  color: #fff;
+  padding: 15rem 0 2.5rem 2rem; }
+  .company-item_wrp a {
+    color: #fff; }
+    .company-item_wrp a:hover {
+      text-decoration: underline; }
+
+.company-item_text-wrp {
+  max-width: 320px; }
+
+.company-item__note {
+  padding-top: 0.5rem; }
+
+.company-item__link {
+  margin-top: 1.5rem; }
+
+.company-item__link.arrow-right:after {
+  background-position: -323px 0px;
+  top: 6px; }
+
+.company-item-col .company-item_wrp {
+  padding: 2rem 0 3.25rem 2rem;
+  height: auto; }
+
+.company-item-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.company-item-col .company-item_text-wrp {
+  max-width: 210px; }
+
+.company-item-col .company-item:first-child .company-item_wrp {
+  background: url(../../dist/img/company/industry.jpg) no-repeat; }
+
+.company-item-col .company-item:last-child .company-item_wrp {
+  background: url(../../dist/img/company/map.jpg) no-repeat; }
+
+.footer {
+  background-color: #FBFBFB; }
+
+.footer_row {
+  padding: 2.5rem 0 3rem; }
+
+.footer-item__link.header-top__mail:before {
+  background: url(/dist/img/ui/sprite.svg) -360px 0px;
+  left: -24px;
+  top: 4px; }
+
+.footer-item__phone {
+  position: relative; }
+  .footer-item__phone:before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url(/dist/img/ui/sprite.svg) -240px 0px;
+    left: -24px;
+    top: 1px; }

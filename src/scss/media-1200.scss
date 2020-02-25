@@ -35,6 +35,10 @@
         left: 56px;
     }
 
+    .categories_row {
+        padding-bottom: 3rem;
+    }
+
     .categories-item__img-link {
         max-width: 208px;
         margin-top: 1rem;
@@ -50,5 +54,14 @@
 
     .categories-item-col .categories-item_wrp {
         padding: 1rem;
+    }
+
+    .company-item_wrp {
+        height: 382px;
+        padding: 12rem 0 2.5rem 2rem;
+    }
+
+    .company-item-col .company-item_wrp {
+        height: 175px;
     }
 }

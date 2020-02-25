@@ -208,6 +208,10 @@
         margin-top: 1.5rem;
     }
 
+    .categories-item_wrp {
+        height: 136px;
+    }
+
     .categories-item-col .categories-item_wrp,
     .categories-item_wrp {
         padding: 0.5rem;
@@ -216,11 +220,80 @@
     .categories-item__img-link {
         max-width: 120px;
         float: right;
-        margin-top: -4rem;
+        margin-top: -3.75rem;
+    }
+
+    .categories-item__title {
+        padding-top: 2rem;
+    }
+
+    .categories-item-col .categories-item__title {
+        padding-top: 0.5rem;
     }
 
     .categories-item__link,
     .categories-item-col .categories-item__link {
         margin-top: 0.25rem;
+    }
+
+    .categories-item-col .categories-item__img-link {
+        max-height: 120px;
+    }
+
+    .categories-item-col .categories-item_wrp {
+        &:last-child {
+            margin-top: 1rem;
+        }
+    }
+
+    .categories-item-col {
+        margin-top: 1rem;
+    }
+
+    .company_wrp {
+        margin-bottom: 3rem;
+    }
+
+    .company-item_wrp {
+        height: 180px;
+        padding: 1.5rem 0 2rem 1rem;
+    }
+
+    .company-item_history                    {background-image: url(../../dist/img/company/history-mob.jpg);}
+    .company-item-col .company-item_industry {background-image: url(../../dist/img/company/industry-mob.jpg) !important;}
+    .company-item-col .company-item_map      {background-image: url(../../dist/img/company/map-mob.jpg) !important;}
+
+    .company-item-col .company-item_wrp {
+        padding: 1.5rem 0 3.25rem 1rem;
+    }
+
+    .company-item__title {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .company-item_text-wrp,
+    .company-item-col .company-item_text-wrp {
+        max-width: 374px;
+    }
+
+    .company-item-col .company-item {
+        margin-top: 1rem;
+    }
+
+    // Подвал
+
+    .footer_row {
+        padding: 2rem 0 2.5rem;
+    }
+
+    .footer-item-col1 {
+        text-align: center;
+    }
+
+    .footer-item-col2,
+    .footer-item-col3,
+    .footer-item-col4 {
+        display: none;
     }
 }

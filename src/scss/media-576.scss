@@ -25,4 +25,17 @@
     .main-banner-descr__link {
         display: none;
     }
+
+    .categories-item__img-link {
+        margin-right: 0rem;
+    }
+
+    .company-item_wrp,
+    .company-item-col .company-item_wrp {
+        height: 204px;
+    }
+
+    .company-item_history                    {background: url(/dist/img/company/history.jpg) 50% 0;}
+    .company-item-col .company-item_industry {background: url(../../dist/img/company/industry.jpg) 50% 0 !important;}
+    .company-item-col .company-item_map      {background: url(../../dist/img/company/map.jpg) 50% 0 !important;}
 }
