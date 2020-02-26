@@ -45,4 +45,74 @@
     .categories-item__img-link {
         margin-right: 7.5rem;
     }
+
+    // Страница с товаром
+
+    .good-gallery-preview {
+        display: none;
+    }
+
+    .good-gallery .slick-dots {
+        text-align: left;
+    }
+
+
+    .good-gallery .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+        content: "";
+        background-color: #CCCCCC;
+        border-radius: 50%;
+    }
+
+    .good-gallery .slick-dots li {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .good-gallery li.slick-active button:before {
+        background-color: #666666;
+    }
+
+    .good-gallery .slick-dots {
+        bottom: 3px;
+    }
+
+    .good-gallery .slick-dots li.slick-active button:before,
+    .good-gallery .slick-dots li button:before {
+        opacity: 1;
+    }
+
+    .good-info-descr-table_left-wrp,
+    .good-info-descr-table__value {
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: $whisperColor;
+            bottom: 0;
+            left: -15px;
+        }
+        &:last-child::after,
+        &:nth-last-child(2)::after {
+            display: none;
+        }
+    }
+
+    .good-info-descr-table_left-wrp {
+        &:after {
+            left: 15px;
+        }
+    }
+
+    .good-info-descr-table_hl {
+        display: none;
+    }
+
+    .good-info-descr-table__title,
+    .good-info-descr-table__value {
+        padding-bottom: 0.5rem;
+    }
 }

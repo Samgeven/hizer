@@ -10,7 +10,7 @@ const paths = {
     html:['header.html'],
     css:['./src/scss/vars.scss', './src/scss/common.scss', './src/scss/header.scss', './src/scss/main-page.scss', './src/scss/footer.scss', './src/scss/catalogue.scss', './src/scss/good-page.scss'],
     media:['./src/scss/vars.scss', './src/scss/media-1200.scss', './src/scss/media-992.scss',  './src/scss/media-768.scss', './src/scss/media-576.scss'],
-    js:['./src/js/main.js', './src/js/slider.js', './src/js/gallery.js']
+    js:['./src/js/main.js', './src/js/slider.js', './src/js/gallery.js', './src/js/popup.js']
   };
 
 // CSS task

@@ -47,7 +47,6 @@ $(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true,
         arrows: false,
-        swipe: false,
         fade: true,
         cssEase: 'linear',
         responsive: [
@@ -55,7 +54,6 @@ $(document).ready(function(){
           breakpoint: 768,
           settings: {
             dots: true,
-            swipe: false,
             fade: false,
           }
         }],

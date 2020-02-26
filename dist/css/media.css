@@ -25,6 +25,8 @@
     max-width: 120px; }
   .categories-item-col .categories-item_wrp {
     padding: 1rem; }
+  .company_wrp {
+    margin-top: 2.5rem; }
   .company-item_wrp {
     height: 382px;
     padding: 12rem 0 2.5rem 2rem; }
@@ -251,6 +253,11 @@
     display: block;
     margin-top: 2rem; } }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .good-gallery_spc {
+    position: relative;
+    top: 0px; } }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 1.75rem;
@@ -276,7 +283,50 @@
   .main-slider-descr_spc {
     margin-top: 0.5rem; }
   .categories-item__img-link {
-    margin-right: 7.5rem; } }
+    margin-right: 7.5rem; }
+  .good-gallery-preview {
+    display: none; }
+  .good-gallery .slick-dots {
+    text-align: left; }
+  .good-gallery .slick-dots li button:before {
+    width: 8px;
+    height: 8px;
+    content: "";
+    background-color: #CCCCCC;
+    border-radius: 50%; }
+  .good-gallery .slick-dots li {
+    width: 8px;
+    height: 8px; }
+  .good-gallery li.slick-active button:before {
+    background-color: #666666; }
+  .good-gallery .slick-dots {
+    bottom: 3px; }
+  .good-gallery .slick-dots li.slick-active button:before,
+  .good-gallery .slick-dots li button:before {
+    opacity: 1; }
+  .good-info-descr-table_left-wrp,
+  .good-info-descr-table__value {
+    position: relative; }
+    .good-info-descr-table_left-wrp:after,
+    .good-info-descr-table__value:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: #E5E5E5;
+      bottom: 0;
+      left: -15px; }
+    .good-info-descr-table_left-wrp:last-child::after, .good-info-descr-table_left-wrp:nth-last-child(2)::after,
+    .good-info-descr-table__value:last-child::after,
+    .good-info-descr-table__value:nth-last-child(2)::after {
+      display: none; }
+  .good-info-descr-table_left-wrp:after {
+    left: 15px; }
+  .good-info-descr-table_hl {
+    display: none; }
+  .good-info-descr-table__title,
+  .good-info-descr-table__value {
+    padding-bottom: 0.5rem; } }
 
 @media (max-width: 576px) {
   .main-slider_wrp {
@@ -299,7 +349,7 @@
   .company-item-col .company-item_wrp {
     height: 204px; }
   .company-item_history {
-    background: url(/dist/img/company/history.jpg) 50% 0; }
+    background: url(../../dist/img/company/history.jpg) 50% 0; }
   .company-item-col .company-item_industry {
     background: url(../../dist/img/company/industry.jpg) 50% 0 !important; }
   .company-item-col .company-item_map {

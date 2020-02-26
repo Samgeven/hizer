@@ -22,3 +22,110 @@
     right: 8px;
     top: 10px;
 }
+
+.good-gallery-item__img {
+    width: 100%;
+}
+
+.good-gallery-preview__img {
+    max-width: 72px;
+}
+
+.good-info-descr_wrp {
+    margin-top: 2.5rem;
+}
+
+.good-info__title {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+.good-info-descr-table_left-wrp {
+    padding-right: 0;
+    align-items: baseline;
+}
+
+.good-info-descr-table__value {
+    padding-left: 0.5rem;
+}
+
+.good-info-descr-table_hl {
+    border-bottom: 1px dotted #212121;
+    flex-grow: 1;
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.good-info-descr__link {
+    margin-top: 2rem;
+    display: block;
+    position: relative;
+    padding-left: 2rem;
+    text-decoration: underline;
+    &:before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background: url(/dist/img/ui/sprite.svg) -144px 0;
+        left: 0px;
+        top: 2px;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.good-features_row {
+    margin: 4rem -0.5rem 5rem;
+}
+
+.good-features-item {
+    padding-left: 0;
+}
+
+.good-features-item_wrp {
+    padding: 0.5rem;
+}
+
+.good-features-item__img {
+    width: 100%;
+}
+
+.weight-popup {
+    border-bottom: 1px dashed #212121;
+}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* overlay animate in */
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  /* overlay animate out */
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+  
+  /* content at start */
+  .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* content animate it */
+  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  /* content animate out */
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }

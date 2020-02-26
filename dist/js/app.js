@@ -72,7 +72,6 @@ $(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true,
         arrows: false,
-        swipe: false,
         fade: true,
         cssEase: 'linear',
         responsive: [
@@ -80,7 +79,6 @@ $(document).ready(function(){
           breakpoint: 768,
           settings: {
             dots: true,
-            swipe: false,
             fade: false,
           }
         }],
@@ -95,5 +93,21 @@ $('.good-gallery-preview__item').click(function() {
 $(document).ready(function() {
     $("#lightgallery").lightGallery({
     	selector: '.good-gallery-item__link'
-    }); 
+    });
+
+    // Прокрутка галереи в разрешении от 7678px до 992px
+
+    $(window).scroll(function() {
+        let galleryTop = $(".good-gallery_spc");
+        let topOffset = window.pageYOffset;
+        galleryTop.css("top", topOffset < 375 ? topOffset : 375)
+    })
 });
+// Всплывающие окна
+
+$('.weight-popup').magnificPopup({
+    type:'image',
+    midClick: true,
+    removalDelay: 300,
+    mainClass: 'mfp-fade'
+  });
