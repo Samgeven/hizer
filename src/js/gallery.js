@@ -5,7 +5,7 @@ $(document).ready(function() {
     	selector: '.good-gallery-item__link'
     });
 
-    // Прокрутка галереи в разрешении от 7678px до 992px
+    // Прокрутка галереи в разрешении от 768px до 992px
 
     $(window).scroll(function() {
         let galleryTop = $(".good-gallery_spc");

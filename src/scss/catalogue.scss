@@ -26,6 +26,54 @@
     }
 }
 
+.catalogue-sort {
+    margin-left: auto;
+    margin-top: 1rem;
+}
+
+.catalogue-sort__active {
+    display: none;
+}
+
+.catalogue-sort__list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+}
+
+.catalogue-sort__item + .catalogue-sort__item  {
+    margin-left: 2.5rem;
+}
+
+.catalogue-sort__link {
+    color: $textDim;
+}
+
+.catalogue-sort__link.sort_active {
+    color: $textColor;
+}
+
+.sort_active.sort_down,
+.sort_active.sort_up {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 12px;
+        background: url(../../dist/img/ui/sprite.svg) -48px 0px;
+        top: 5px;
+        right: -17px;
+    }
+}
+
+.sort_active.sort_up {
+    &:after {
+        transform: rotate(180deg);
+        top: 2px;
+    }
+}
+
 .catalogue_row .good-item {
     padding-top: 0rem;
 }
