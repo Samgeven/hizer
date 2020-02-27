@@ -1,0 +1,34 @@
+// Страница с контактами
+
+.contacts__img {
+    margin: 0 auto;
+    display: block;
+}
+
+.contacts_wrp {
+    margin-top: 3.5rem;
+}
+
+
+.contacts-author_wrp {
+    margin-top: 2.5rem;
+}
+
+.contacts-author__name {
+    font-weight: 500;
+}
+
+.contacts-bid_wrp {
+    margin-top: 2rem;
+}
+
+.contacts-bid-form__input {
+    width: 100%;
+    & + .contacts-bid-form__input {
+        margin-top: 0.5rem;
+    }
+}
+
+.contacts-bid-form {
+    max-width: 290px;
+}

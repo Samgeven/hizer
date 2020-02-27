@@ -73,8 +73,8 @@
         &:before {
             content: "";
             position: absolute;
-            width: 600px;
-            margin-left: -1rem;
+            width: 107%;
+            margin-left: -1.25rem;
             top: 0px;
             height: 1px;
             background-color: $whisperColor;
@@ -99,7 +99,7 @@
         &:before {
             position: absolute;
             content: "";
-            width: 600px;
+            width: 107%;
             margin-left: -1rem;
             height: 1px;
             background-color: $whisperColor;
