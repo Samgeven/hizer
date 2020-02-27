@@ -87,6 +87,9 @@ h5 {
   color: #E30C13;
   font-weight: 500; }
 
+.btn_contacts {
+  margin-top: 2.5rem; }
+
 .text-regular {
   font-size: 1rem;
   line-height: 1.5rem; }
@@ -733,13 +736,19 @@ h5 {
 .contacts-author__name {
   font-weight: 500; }
 
+.contacts-bid_spc {
+  margin: 5rem 0; }
+
 .contacts-bid_wrp {
   margin-top: 2rem; }
 
 .contacts-bid-form__input {
-  width: 100%; }
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 0.5rem 1rem; }
   .contacts-bid-form__input + .contacts-bid-form__input {
     margin-top: 0.5rem; }
 
 .contacts-bid-form {
-  max-width: 290px; }
+  max-width: 350px; }

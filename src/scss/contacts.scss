@@ -18,17 +18,24 @@
     font-weight: 500;
 }
 
+.contacts-bid_spc {
+    margin: 5rem 0;
+}
+
 .contacts-bid_wrp {
     margin-top: 2rem;
 }
 
 .contacts-bid-form__input {
     width: 100%;
+    border: none;
+    border-bottom: 1px solid $whisperColor;
+    padding: 0.5rem 1rem;
     & + .contacts-bid-form__input {
         margin-top: 0.5rem;
     }
 }
 
 .contacts-bid-form {
-    max-width: 290px;
+    max-width: 350px;
 }

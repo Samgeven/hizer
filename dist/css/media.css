@@ -288,6 +288,8 @@
     margin-top: 0.5rem; }
   .categories-item__img-link {
     margin-right: 7.5rem; }
+  .catalogue .good-item_wrp {
+    min-height: auto; }
   .good-info__title {
     font-size: 1.5rem;
     line-height: 2rem; }
@@ -368,6 +370,10 @@
     margin-top: -1px; }
     .catalogue .good-item:nth-child(2n) {
       margin-left: -1px; }
+  .catalogue .good-item_text-wrp {
+    width: 100%; }
+  .catalogue .good-item_wrp {
+    padding: 0 1rem; }
   .catalogue .good-item__img {
     width: 100%; }
   .catalogue-categories {
