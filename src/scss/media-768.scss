@@ -25,6 +25,10 @@
         }
     }
 
+    .top-img_wrp {
+        height: 220px;
+    }
+
     // Стили для главной
 
     .main-slider_wrp {
@@ -130,9 +134,18 @@
         width: 100%;
     }
 
-    // Контакты 
-    
-    .contacts_img-wrp {
-        height: 220px;
+    // Дилеры
+
+    .dealer .yandex-map {
+        height: 340px;
+        margin: 3.5rem 0 3rem;
+    }
+
+    .dealer-info-features_spc {
+        margin-top: 1.25rem;
+    }
+
+    .dealer-info-features__item {
+        padding: 1.25rem 1rem;
     }
 }

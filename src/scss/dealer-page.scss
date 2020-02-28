@@ -1,7 +1,7 @@
 // Стили для дилерской страницы
 
 .dealer_img-wrp {
-    background: url(../../dist/img/dealer.jpg) no-repeat;
+    background-image: url(../../dist/img/dealer.jpg);
 }
 
 .dealer_wrp {
@@ -9,5 +9,36 @@
 }
 
 .dealer-info-features_spc {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
+}
+
+.dealer-info-features {
+    &__img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "";
+            background: url(../../dist/img/ui/sprite-big.svg) no-repeat;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    &__payback:after {background-position: -60px 0;}
+    &__support:after {background-position: -120px 0;}
+    &__ad:after      {background-position: -180px 0;}
+}
+
+.dealer-info-features__item {
+    padding: 1.5rem 1rem;
+}
+
+.dealer-form__input {
+    width: 100%;
+}
+
+.dealer .yandex-map {
+    height: 480px;
+    margin: 3.5rem 0 5rem
 }

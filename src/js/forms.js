@@ -1,24 +1,24 @@
-$("#contactsForm").validate({
+$("#contactsForm, #dealerForm").validate({
 	rules: {
-		contactsMail: {
+		mail: {
 			required: true,
 			email: true,
 		},
-		contactsPhone: {
+		phone: {
 			required: true,
 			mobileRU: true,
 		}
 	},
 	messages: {
-		contactsMail: {
+		mail: {
 			email: "Мы не сможем прислать письмо по этому адресу",
 			required: "Мы не сможем прислать письмо по этому адресу",
 		},
-		contactsPhone: {
+		phone: {
 			mobileRU: "Мы не сможем дозвониться по этому номеру",
 			required: "Мы не сможем дозвониться по этому номеру",
 		},
-		btnSendContacts: {
+		contacts: {
 			onsubmit: "Отправлено",
 		}
 	}

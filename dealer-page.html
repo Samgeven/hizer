@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="dist/fonts/geometria/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=50549299-b004-4329-ac8a-68070b38231c&lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
     <link rel="stylesheet" type="text/css" href="dist/css/media.css">
  </head>
@@ -104,8 +105,8 @@
     <section class="dealer">
         <div class="dealer_img-wrp top-img_wrp"></div>
         <div class="dealer_wrp container">
-            <div class="dealer_row row">
-                <div class="dealer-info col-xl-7">
+            <div class="dealer_row row justify-content-between">
+                <div class="dealer-info col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                     <h2 class="dealer-info__title">
                         Стать дилером
                     </h2>
@@ -113,45 +114,106 @@
                         Таким образом начало повседневной работы по формированию позиции требуют определения и уточнения соответствующий условий активизации. Повседневная практика показывает, что реализация намеченных плановых заданий. 
                     </p>
                     <div class="dealer-info-features dealer-info-features_spc row">
-                        <div class="dealer-info-features__item col-xl-6">
-                            <div class="dealer-info-features__img"></div>
-                            <h5 class="dealer-info-features__title">
+                        <div class="dealer-info-features__item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="dealer-info-features__img dealer-info-features__fame"></div>
+                            <h5 class="dealer-info-features__title mt-4">
                                 Известность бренда
                             </h5>
-                            <p class="dealer-info-features__note">
+                            <p class="dealer-info-features__note mt-2">
                                 Равным образом реализация намеченных плановых заданий способствует подготовки.
                             </p>
                         </div>
-                        <div class="dealer-info-features__item col-xl-6">
-                            <div class="dealer-info-features__img"></div>
-                            <h5 class="dealer-info-features__title">
+                        <div class="dealer-info-features__item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="dealer-info-features__img dealer-info-features__payback"></div>
+                            <h5 class="dealer-info-features__title mt-4">
                                 Известность бренда
                             </h5>
-                            <p class="dealer-info-features__note">
+                            <p class="dealer-info-features__note mt-2">
                                 Равным образом реализация намеченных плановых заданий способствует подготовки.
                             </p>
                         </div>
-                        <div class="dealer-info-features__item col-xl-6">
-                            <div class="dealer-info-features__img"></div>
-                            <h5 class="dealer-info-features__title">
+                        <div class="dealer-info-features__item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="dealer-info-features__img dealer-info-features__support"></div>
+                            <h5 class="dealer-info-features__title mt-4">
                                 Известность бренда
                             </h5>
-                            <p class="dealer-info-features__note">
+                            <p class="dealer-info-features__note mt-2">
                                 Равным образом реализация намеченных плановых заданий способствует подготовки.
                             </p>
                         </div>
-                        <div class="dealer-info-features__item col-xl-6">
-                            <div class="dealer-info-features__img"></div>
-                            <h5 class="dealer-info-features__title">
+                        <div class="dealer-info-features__item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="dealer-info-features__img dealer-info-features__ad"></div>
+                            <h5 class="dealer-info-features__title mt-4">
                                 Известность бренда
                             </h5>
-                            <p class="dealer-info-features__note">
+                            <p class="dealer-info-features__note mt-2">
                                 Равным образом реализация намеченных плановых заданий способствует подготовки.
                             </p>
                         </div>
                     </div>
                 </div>
+                <div class="dealer_form-wrp col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <form class="dealer-form" id="dealerForm">
+                        <p class="dealer-form__note text-small pb-2">
+                            Предлагаем стать нашим дилером на особо выгодных условиях. 
+                        </p>
+                        <input class="input dealer-form__input mt-3" id="dealerName" name="name" type="text" placeholder="Имя">
+                        <input class="input dealer-form__input mt-3" id="dealerMail" name="mail" type="text" placeholder="Эл. почта">
+                        <input class="input dealer-form__input mt-3" id="dealerPhone" name="phone" type="text" placeholder="Моб. телефон">
+                        <input class="btn btn_contacts" id="btnSendDealer" name="contacts" type="submit" value="Оставить заявку" readonly>
+                    </form>
+                </div>
+                <section class="yandex-map col-xl-12 col-lg-12 col-md-12 col-12" id="map">
+                </section>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer_wrp container">
+            <div class="footer_row row text-small">
+                <div class="footer-item footer-item-col1 col-xl-3 col-lg-3 col-md-12">
+                    «HIZER-MOTO»
+                    <br>
+                    © 2010–2020 Производитель экипировки и одежды для мотоциклистов
+                </div>
+                <div class="footer-item footer-item-col2 col-xl-3 col-lg-3">
+                    <a class="footer-item__link d-block" href="#">
+                        Каталог
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Где купить
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Стать дилером
+                    </a>
+                </div>
+                <div class="footer-item footer-item-col3 col-xl-3 col-lg-3">
+                    <a class="footer-item__link d-block" href="#">
+                        История бренда
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Участие в соревнованиях
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Контакты
+                    </a>
+                </div>
+                <div class="footer-item footer-item-col4 col-xl-3 col-lg-3">
+                    <a class="footer-item__link d-block header-top__mail" href="#">
+                        qwerty@mail.ru
+                    </a>
+                    <a class="footer-item__link d-block mt-2 footer-item__phone" href="#">
+                        8 (999) 123-45-67
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="dist/js/app.js"></script>
 </body>
