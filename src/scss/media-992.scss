@@ -352,6 +352,30 @@
     .catalogue-sort__list {
         justify-content: flex-start;
     }
+
+    // Контакты 
+
+    
+    .contacts-info-note__item {
+        margin-top: 1.5rem;
+    }
+    
+    .contacts-bid-form {
+        max-width: none;
+    }
+
+    .btn_contacts {
+        display: block;
+    }
+
+    .contacts .yandex-map {
+        margin-top: 3.5rem;
+        height: 304px;
+    }
+
+    .contacts-bid_spc {
+        margin-top: 3.5rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
