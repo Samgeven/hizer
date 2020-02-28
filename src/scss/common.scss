@@ -80,6 +80,19 @@ h5 {
     }
 }
 
+// Большой баннер вверху страницы
+
+.top-img_wrp {
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+// Кнопки
+
 .btn {
     padding: 0.4rem 1.5rem 0.5rem;
     background-color: $mainColor;
@@ -110,6 +123,44 @@ h5 {
     margin-top: 2.5rem;
 }
 
+// Инпуты
+
+.input {
+    border: none;
+    border-bottom: 1px solid $whisperColor;
+    padding: 0.5rem 1rem;
+    &:focus {
+        outline: 1px solid #666666;
+        transition: 0s;
+    }
+}
+
+.input.error {
+    border: 1px solid #F44336;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background: url(../../dist/img/ui/error.svg) no-repeat;
+    background-size: 12px;
+    background-position: 94% 14px;
+    transition: 0s;
+}
+
+.input.valid {
+    border: 1px solid #4CAF50;
+    background: url(../../dist/img/ui/success.svg) no-repeat;
+    background-size: 16px;
+    background-position: 94% 13px;
+    transition: 0s;
+}
+
+label.error {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #F44336;
+}
+
+// Размер текста
+
 .text-regular {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -119,6 +170,8 @@ h5 {
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
+
+// js
 
 .is-opened-js {
     display: block !important;

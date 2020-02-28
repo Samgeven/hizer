@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=50549299-b004-4329-ac8a-68070b38231c&lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
     <link rel="stylesheet" type="text/css" href="dist/css/media.css">
  </head>
@@ -104,16 +105,16 @@
     </header>
     <div class="overlay"></div>
      <section class="contacts">
-         <div class="contacts_img-wrp">
-             <img class="contacts__img" src="dist/img/contacts.jpg">
+         <div class="contacts_img-wrp top-img_wrp">
+             
          </div>
          <div class="contacts_wrp container">
              <div class="contacts_row">
                 <div class="contacts-info row">
-                    <h2 class="contacts-info__title col-xl-5">
+                    <h2 class="contacts-info__title col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
                         Hizer Russia
                     </h2>
-                    <div class="contacts-info-note col-xl-6">
+                    <div class="contacts-info-note col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <p class="contacts-info-note__item">
                             Сегодня «Hizer Russia» – один из лидеров отрасли по поставке мотозащиты и экипировки, как напрямую, так и через развитую специализированную дилерскую сеть по всей России.
                             <br>
@@ -138,21 +139,18 @@
                         Контакты
                     </h2>
                     <div class="contacts-bid_wrp row">
-                        <div class="contacts-bid-form_wrp col-xl-5">
-                            <form class="contacts-bid-form" method="GET">
+                        <div class="contacts-bid-form_wrp col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+                            <form class="contacts-bid-form" method="GET" id="contactsForm">
                                 <p class="contacts-bid-form__note text-small">
                                     Остались вопросы? Оставьте свои контакты и с вами свяжутся наши специалисты. 
                                 </p>
-                                <input class="contacts-bid-form__input mt-3" id="name" type="text" placeholder="Имя">
-                                <input class="contacts-bid-form__input" id="main" type="text" placeholder="Эл. почта">
-                                <input class="contacts-bid-form__input" id="phone" type="text" placeholder="Моб. телефон">
-                                <button class="btn btn_contacts" id="btn-send-contacts">
-                                    Оставить заявку
-                                </button>
+                                <input class="input contacts-bid-form__input mt-3" id="contactsName" name="contactsName" type="text" placeholder="Имя">
+                                <input class="input contacts-bid-form__input" id="contactsMail" name="contactsMail" type="text" placeholder="Эл. почта">
+                                <input class="input contacts-bid-form__input" id="contactsPhone" name="contactsPhone" type="text" placeholder="Моб. телефон">
+                                <input class="btn btn_contacts" id="btnSendContacts" name="btnSendContacts" type="submit" value="Оставить заявку" readonly>
                             </form>
                         </div>
-                        <section class="yandex-map col-xl-6">
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac86384091297985411bb25b16d47d3b885ab37efada16709e911fcfe5af1ec73&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+                        <section class="yandex-map col-xl-6 col-lg-6 col-md-12 col-12" id="map">
                         </section>
                     </div>
                 </div>
@@ -200,4 +198,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="dist/js/app.js"></script>
  </body>

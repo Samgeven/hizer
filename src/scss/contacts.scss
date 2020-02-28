@@ -1,8 +1,7 @@
 // Страница с контактами
 
-.contacts__img {
-    margin: 0 auto;
-    display: block;
+.contacts_img-wrp {
+    background: url(../../dist/img/contacts.jpg) no-repeat;
 }
 
 .contacts_wrp {
@@ -28,9 +27,6 @@
 
 .contacts-bid-form__input {
     width: 100%;
-    border: none;
-    border-bottom: 1px solid $whisperColor;
-    padding: 0.5rem 1rem;
     & + .contacts-bid-form__input {
         margin-top: 0.5rem;
     }
@@ -38,4 +34,8 @@
 
 .contacts-bid-form {
     max-width: 350px;
+}
+
+.contacts .yandex-map {
+    width: 100%;
 }
