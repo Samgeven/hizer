@@ -168,7 +168,15 @@ $("#contactsForm, #dealerForm").validate({
 		}
 	}
 	});
-	
+// Кастомные селекты
+
+$(document).ready(function(){
+    $('.where-to-buy__select').styler({
+        selectVisibleOptions: 6,
+    })
+})
+// Кастомные маркеры для яндекс карт
+
 	ymaps.ready(init);
         function init(){
             var myMap = new ymaps.Map("map", {

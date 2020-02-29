@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Main">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/fonts/geometria/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=50549299-b004-4329-ac8a-68070b38231c&lang=ru_RU" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/media.css">
+ </head>
+ <body>
+    <header class="header">
+        <!-- Mob hamburger -->
+        
+        <div class="mob-header_wrp">
+            <div class="hamburger_wrp">
+            <div class="header-hamburger hamburger_spacing js-menu-trigger">
+                <span class="header-hamburger__item"></span>
+                <span class="header-hamburger__item"></span>
+                <span class="header-hamburger__item"></span>
+            </div>
+            </div>
+            <a class="mob-header__logo mt-1 d-block text-center" href="#">
+                <img class="header-top-logo__img" src="dist/img/ui/small.svg">
+            </a>
+        </div>
+
+        <!-- /Mob hamburger -->
+        <div class="header_wrp container">
+            <div class="header_row pt-3">
+                <div class="header-top header-top_spc d-flex align-items-center row text-small">
+                    <a class="header-top__mail header-top__mail_spc col-xl-5 col-lg-5" href="#">
+                        qwerty@mail.ru
+                    </a>
+                    <a class="header-top-logo col-xl-3 col-lg-2 col-md-2" href="#">
+                        <img class="header-top-logo__img" src="dist/img/ui/normal.svg">
+                    </a>
+                    <nav class="header-top-nav col-xl-4 col-lg-5 d-flex">
+                        <a class="header-top-nav__link header-top-nav_link-spc" href="#">Где купить</a>
+                        <a class="header-top-nav__link header-top-nav_link-spc" href="#">Стать дилером</a>
+                        <a class="header-top-nav__link header-top-nav_link-spc" href="contacts.html">Контакты</a>
+                    </nav>
+                </div>
+                <div class="header_low">
+                    <ul class="header-catalogue d-flex justify-content-center">
+                        <li class="header-catalogue__item">
+                            <a class="header-catalogue__link header-catalogue__item_spc open-submenu-js d-block" href="#">
+                                Шлемы
+                            </a>
+                                <ul class="header-catalogue-sub">
+                                    <li class="header-catalogue-sub__item header-catalogue-sub_go-back">
+                                        <a class="header-catalogue-sub__link menu-back-js" href="#">
+                                            Назад
+                                        </a>
+                                    </li>
+                                    <li class="header-catalogue-sub__item">
+                                        <a class="header-catalogue-sub__link" href="catalogue.html">
+                                            Открытые шлемы
+                                        </a>
+                                    </li>
+                                    <li class="header-catalogue-sub__item">
+                                        <a class="header-catalogue-sub__link" href="#">
+                                            Закрытые шлемы
+                                        </a>
+                                    </li>
+                                    <li class="header-catalogue-sub__item">
+                                        <a class="header-catalogue-sub__link" href="#">
+                                            Кроссовые шлемы
+                                        </a>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="header-catalogue__item header-catalogue__item_spc">
+                            <a class="header-catalogue__link" href="#">
+                                Очки
+                            </a>
+                        </li>
+                        <li class="header-catalogue__item header-catalogue__item_spc">
+                            <a class="header-catalogue__link" href="#">
+                                Защита
+                            </a>
+                        </li>
+                        <li class="header-catalogue__item header-catalogue__item_spc">
+                            <a class="header-catalogue__link" href="#">
+                                Одежда
+                            </a>
+                        </li>
+                        <li class="header-catalogue__item header-catalogue__item_spc">
+                            <a class="header-catalogue__link" href="#">
+                                Перчатки
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </header>
+    <div class="overlay"></div>
+    <section class="where-to-buy">
+        <div class="where-to-buy_wrp container">
+            <div class="where-to-buy_row row">
+                <h1 class="where-to-buy__title col-xl-9">
+                    Где купить
+                </h1>
+                <div class="where-to-buy_select-wrp col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <select class="where-to-buy__select">
+                        <option class="where-to-buy__option" value="">Москва и Московская область</option>
+                        <option class="where-to-buy__option" value="">Text2</option>
+                        <option class="where-to-buy__option" value="">Text3</option>
+                        <option class="where-to-buy__option" value="">Text4</option>
+                        <option class="where-to-buy__option" value="">Text5</option>
+                        <option class="where-to-buy__option" value="">Text6</option>
+                        <option class="where-to-buy__option" value="">Text7</option>
+                        <option class="where-to-buy__option" value="">Text8</option>
+                        <option class="where-to-buy__option" value="">Text9</option>
+                    </select>
+                </div>
+                <section class="yandex-map col-xl-12 col-lg-12 col-md-12 col-12" id="map">
+                </section>
+                <div class="where-to-buy-list row col-xl-11 col-lg-11 col-md-12 col-sm-12">
+                    <div class="where-to-buy-list-item col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="where-to-buy-list-item__title">
+                            «Мотосота»
+                        </h4>
+                        <p class="where-to-buy-list-item__adress mt-2 mt-sm-2 mt-md-3 mt-lg-3 mt-xl-3">
+                            Москва, ул. Осенняя, 23
+                        </p>
+                        <p class="where-to-buy-list-item__phone mt-1">
+                            +7 (495) 374-92-78
+                        </p>
+                        <a class="where-to-buy-list-item__link mt-1" href="motosota.ru" rel="nofollow">
+                            motosota.ru
+                        </a>
+                    </div>
+                    <div class="where-to-buy-list-item col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="where-to-buy-list-item__title">
+                            «Мотозапчасти на Авиамоторной 47»
+                        </h4>
+                        <p class="where-to-buy-list-item__adress mt-2 mt-sm-2 mt-md-3 mt-lg-3 mt-xl-3">
+                            Москва, ул. Авиамоторная, 47
+                        </p>
+                        <p class="where-to-buy-list-item__phone mt-1">
+                            +7 (495) 673-06-91
+                        </p>
+                        <a class="where-to-buy-list-item__link mt-1" href="moto99.ru" rel="nofollow">
+                            moto99.ru
+                        </a>
+                    </div>
+                    <div class="where-to-buy-list-item col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="where-to-buy-list-item__title">
+                            «MnogoBike»
+                        </h4>
+                        <p class="where-to-buy-list-item__adress mt-2 mt-sm-2 mt-md-3 mt-lg-3 mt-xl-3">
+                            Московская область, г. Голицыно, Железнодорожный пр-т, 9
+                        </p>
+                        <p class="where-to-buy-list-item__phone mt-1">
+                            +7 (916) 141-48-33
+                        </p>
+                        <a class="where-to-buy-list-item__link mt-1" href="mnogobike.ru" rel="nofollow">
+                            mnogobike.ru
+                        </a>
+                    </div>
+                    <div class="where-to-buy-list-item col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="where-to-buy-list-item__title">
+                            «Ангар 8»
+                        </h4>
+                        <p class="where-to-buy-list-item__adress mt-2 mt-sm-2 mt-md-3 mt-lg-3 mt-xl-3">
+                            Московская обл., Мытищинский р-н, пос. Пирогово, ТЦ «Удача»
+                        </p>
+                        <p class="where-to-buy-list-item__phone mt-1">
+                            +7 (800) 100-60-33
+                        </p>
+                        <a class="where-to-buy-list-item__link mt-1" href="angar8.ru" rel="nofollow">
+                            angar8.ru
+                        </a>
+                    </div>
+                    <div class="where-to-buy-list-item col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="where-to-buy-list-item__title">
+                            «Scooter-Pro»
+                        </h4>
+                        <p class="where-to-buy-list-item__adress mt-2 mt-sm-2 mt-md-3 mt-lg-3 mt-xl-3">
+                            Москва, 27-й км МКАД внешняя сторона ТЦ «Формула Х» 2 этаж павильон 2-02
+                        </p>
+                        <p class="where-to-buy-list-item__phone mt-1">
+                            +7 (915) 332-64-99
+                        </p>
+                        <a class="where-to-buy-list-item__link mt-1" href="moto99.ru" rel="nofollow">
+                            scooter-pro.ru
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_wrp container">
+            <div class="footer_row row text-small">
+                <div class="footer-item footer-item-col1 col-xl-3 col-lg-3 col-md-12">
+                    «HIZER-MOTO»
+                    <br>
+                    © 2010–2020 Производитель экипировки и одежды для мотоциклистов
+                </div>
+                <div class="footer-item footer-item-col2 col-xl-3 col-lg-3">
+                    <a class="footer-item__link d-block" href="#">
+                        Каталог
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Где купить
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Стать дилером
+                    </a>
+                </div>
+                <div class="footer-item footer-item-col3 col-xl-3 col-lg-3">
+                    <a class="footer-item__link d-block" href="#">
+                        История бренда
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Участие в соревнованиях
+                    </a>
+                    <a class="footer-item__link d-block mt-2" href="#">
+                        Контакты
+                    </a>
+                </div>
+                <div class="footer-item footer-item-col4 col-xl-3 col-lg-3">
+                    <a class="footer-item__link d-block header-top__mail" href="#">
+                        qwerty@mail.ru
+                    </a>
+                    <a class="footer-item__link d-block mt-2 footer-item__phone" href="#">
+                        8 (999) 123-45-67
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.js"></script>
+    <script src="dist/js/app.js"></script>
+</body>
+</html>

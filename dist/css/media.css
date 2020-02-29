@@ -359,6 +359,13 @@
   .dealer-info-features_spc {
     margin-top: 1.25rem; }
   .dealer-info-features__item {
+    padding: 1.25rem 1rem; }
+  .where-to-buy .yandex-map {
+    height: 340px;
+    margin-top: 2rem; }
+  .where-to-buy-list {
+    margin-top: 1.25rem; }
+  .where-to-buy-list-item {
     padding: 1.25rem 1rem; } }
 
 @media (max-width: 576px) {
