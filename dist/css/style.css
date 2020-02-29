@@ -680,6 +680,9 @@ label.error {
 .good-gallery-preview__img {
   max-width: 72px; }
 
+.good-gallery-item__link .good-gallery-item__img {
+  display: none; }
+
 .good-info-descr_wrp {
   margin-top: 2.5rem; }
 
@@ -735,31 +738,55 @@ label.error {
 .weight-popup {
   border-bottom: 1px dashed #212121; }
 
-/* overlay at start */
 .mfp-fade.mfp-bg {
   opacity: 0;
   transition: all 0.15s ease-out; }
 
-/* overlay animate in */
 .mfp-fade.mfp-bg.mfp-ready {
   opacity: 0.8; }
 
-/* overlay animate out */
 .mfp-fade.mfp-bg.mfp-removing {
   opacity: 0; }
 
-/* content at start */
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0;
   transition: all 0.15s ease-out; }
 
-/* content animate it */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1; }
 
-/* content animate out */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0; }
+
+.lg-backdrop,
+.lg-toolbar,
+.lg-thumb-outer {
+  background-color: #fff !important; }
+
+.lg-actions .lg-prev, .lg-actions .lg-next {
+  background-color: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  font-size: 22px;
+  margin-top: -10px;
+  padding: 8px 10px 9px;
+  position: absolute;
+  top: 50%;
+  z-index: 1080;
+  border: none;
+  outline: 0; }
+  .lg-actions .lg-prev:hover, .lg-actions .lg-next:hover {
+    color: inherit; }
+
+.lg-thumb.lg-group {
+  margin: 0 auto; }
+
+.lg-thumb-item:last-child img {
+  width: 52px !important;
+  height: 31px !important;
+  display: block;
+  margin: 1.25rem auto; }
 
 .contacts_img-wrp {
   background-image: url(../../dist/img/contacts.jpg); }

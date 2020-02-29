@@ -92,7 +92,9 @@ $('.good-gallery-preview__item').click(function() {
 
 $(document).ready(function() {
     $("#lightgallery").lightGallery({
-    	selector: '.good-gallery-item__link'
+        selector: '.good-gallery-item__link',
+        thumbnail: true,
+        toogleThumb: false
     });
 
     // Прокрутка галереи в разрешении от 768px до 992px
@@ -192,5 +194,5 @@ $(document).ready(function(){
                 iconImageSize: [36, 47],
                 iconImageOffset: [-15, -27],
             });
-            myMap.geoObjects.add(myPlacemark1)
+            myMap.geoObjects.add(myPlacemark1);
         }
