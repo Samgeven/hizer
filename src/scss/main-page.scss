@@ -74,6 +74,13 @@
     transform: rotate(180deg);
 }
 
+.slick-slide {
+    transition: transform 0.3s;
+    &.slick-current {
+        transform: scale(1, 1);
+    }
+}
+
 /* Популярные товары */
 
 .popular-goods_spc {

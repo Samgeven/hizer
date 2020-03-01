@@ -49,6 +49,7 @@ $(document).ready(function(){
         arrows: false,
         fade: true,
         cssEase: 'linear',
+        swipe: false,
         responsive: [
         {
           breakpoint: 768,

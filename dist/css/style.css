@@ -147,6 +147,14 @@ label.error {
   max-width: 500px;
   margin: 20px auto; }
 
+.popup-submit {
+  width: 360px;
+  background-color: #fff;
+  margin: 20px auto; }
+
+.popup-submit_wrp {
+  padding: 2.5rem 2rem; }
+
 .good-item {
   padding: 1rem;
   padding-bottom: 2rem; }
@@ -400,6 +408,11 @@ label.error {
   left: 151px;
   top: 390px;
   transform: rotate(180deg); }
+
+.slick-slide {
+  transition: transform 0.3s; }
+  .slick-slide.slick-current {
+    transform: scale(1, 1); }
 
 /* Популярные товары */
 .popular-goods_spc {
@@ -781,12 +794,6 @@ label.error {
 
 .lg-thumb.lg-group {
   margin: 0 auto; }
-
-.lg-thumb-item:last-child img {
-  width: 52px !important;
-  height: 31px !important;
-  display: block;
-  margin: 1.25rem auto; }
 
 .contacts_img-wrp {
   background-image: url(../../dist/img/contacts.jpg); }

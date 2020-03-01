@@ -74,6 +74,7 @@ $(document).ready(function(){
         arrows: false,
         fade: true,
         cssEase: 'linear',
+        swipe: false,
         responsive: [
         {
           breakpoint: 768,
@@ -91,6 +92,7 @@ $('.good-gallery-preview__item').click(function() {
 // Галерея
 
 $(document).ready(function() {
+
     $("#lightgallery").lightGallery({
         selector: '.good-gallery-item__link',
         thumbnail: true,
@@ -109,6 +111,13 @@ $(document).ready(function() {
 
 $('.weight-popup').magnificPopup({
     type:'image',
+    midClick: true,
+    removalDelay: 300,
+    mainClass: 'mfp-fade'
+  });
+
+  $('#popup-link').magnificPopup({
+    type:'inline',
     midClick: true,
     removalDelay: 300,
     mainClass: 'mfp-fade'
