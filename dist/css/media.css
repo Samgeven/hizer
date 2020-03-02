@@ -292,6 +292,14 @@
     top: 47px; }
   .top-img_wrp {
     height: 220px; }
+  .modal.fade .modal-dialog {
+    background-color: white;
+    margin: 0px;
+    height: 100%; }
+  button.close {
+    top: 0px;
+    position: absolute;
+    right: 6px; }
   .main-slider_wrp {
     padding-top: 3.5rem;
     height: 276px;

@@ -180,15 +180,6 @@ label.error {
 
 // Всплывающие окна 
 
-.white-popup {
-    position: relative;
-    background: #FFF;
-    padding: 20px;
-    width: auto;
-    max-width: 500px;
-    margin: 20px auto;
-  }
-
 .popup-submit {
     width: 360px;
     background-color: #fff;
@@ -197,6 +188,14 @@ label.error {
 
 .popup-submit_wrp {
     padding: 2.5rem 2rem;
+}
+
+.modal-dialog {
+    max-width: none;
+}
+
+.popup-weight__img {
+    width: 100%;
 }
 
 // Товары

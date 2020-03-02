@@ -108,7 +108,7 @@ $(document).ready(function() {
     })
 });
 // Всплывающие окна
-
+/*
 $('.weight-popup').magnificPopup({
     type:'image',
     midClick: true,
@@ -116,12 +116,7 @@ $('.weight-popup').magnificPopup({
     mainClass: 'mfp-fade'
   });
 
-  $('#popup-link').magnificPopup({
-    type:'inline',
-    midClick: true,
-    removalDelay: 300,
-    mainClass: 'mfp-fade'
-  });
+*/
 // Сортировка товаров
 
 $(document).ready(function() {

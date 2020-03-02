@@ -12,15 +12,41 @@
     <link rel="stylesheet" type="text/css" href="dist/fonts/geometria/stylesheet.css">
  </head>
  <body>
-     <div class="popup-submit" id="popupSubmit">
-        <div class="popup-submit_wrp">
-            <h3 class="popup-submit__title text-center">
-                Спасибо!
-            </h3>
-            <p class="popup-submit__note mt-3 text-center">
-                Ваша заявка успешно отправлена! 
-                Окно закроется через 5 секунд.
-            </p>
+
+    <!-- Попап с отправленной заявкой -->
+
+    <div class="modal fade" id="popupSubmit" tabindex="-1" role="dialog" aria-labelledby="popupSubmit" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="popup-submit px-2" id="popupSubmit">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="popup-submit_wrp">
+                    <h3 class="popup-submit__title text-center">
+                        Спасибо!
+                    </h3>
+                    <p class="popup-submit__note mt-3 text-center">
+                        Ваша заявка успешно отправлена! 
+                        Окно закроется через 5 секунд.
+                    </p>
+                </div>
+             </div>
         </div>
-     </div>
+    </div>
+
+    <!-- Попап с размерами -->
+
+    <div class="modal fade" id="popupWeight" tabindex="-1" role="dialog" aria-labelledby="popupWeight" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="popup-weight px-2 m-auto" id="popupWeight">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="popup-weight_wrp">
+                    <img class="popup-weight__img" src="dist/img/weight.jpg"> 
+                </div>
+             </div>
+        </div>
+    </div>
+
 </body>

@@ -29,6 +29,18 @@
         height: 220px;
     }
 
+    .modal.fade .modal-dialog {
+        background-color: white;
+        margin: 0px;
+        height: 100%;
+    }
+
+    button.close {
+        top: 0px;
+        position: absolute;
+        right: 6px;
+    }
+    
     // Стили для главной
 
     .main-slider_wrp {

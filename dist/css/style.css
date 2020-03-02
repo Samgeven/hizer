@@ -139,14 +139,6 @@ label.error {
 .is-opened-js {
   display: block !important; }
 
-.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto; }
-
 .popup-submit {
   width: 360px;
   background-color: #fff;
@@ -154,6 +146,12 @@ label.error {
 
 .popup-submit_wrp {
   padding: 2.5rem 2rem; }
+
+.modal-dialog {
+  max-width: none; }
+
+.popup-weight__img {
+  width: 100%; }
 
 .good-item {
   padding: 1rem;
@@ -750,26 +748,6 @@ label.error {
 
 .weight-popup {
   border-bottom: 1px dashed #212121; }
-
-.mfp-fade.mfp-bg {
-  opacity: 0;
-  transition: all 0.15s ease-out; }
-
-.mfp-fade.mfp-bg.mfp-ready {
-  opacity: 0.8; }
-
-.mfp-fade.mfp-bg.mfp-removing {
-  opacity: 0; }
-
-.mfp-fade.mfp-wrap .mfp-content {
-  opacity: 0;
-  transition: all 0.15s ease-out; }
-
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-  opacity: 1; }
-
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-  opacity: 0; }
 
 .lg-backdrop,
 .lg-toolbar,

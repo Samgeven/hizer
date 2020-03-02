@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link type="text/css" rel="stylesheet" href="dist/plugins/magic360-commercial/magic360/magic360.css"/>
     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
     <link rel="stylesheet" type="text/css" href="dist/css/media.css">
@@ -198,7 +197,7 @@
                                 <div class="good-info-descr-table_hl"></div>
                             </div>
                             <div class="good-info-descr-table__value col-xl-7 col-lg-7 col-md-7 col-sm-8 col-6">
-                                XS-3XL (<a class="weight-popup" href="dist/img/weight.jpg">Таблица размеров</a>)
+                                XS-3XL (<a class="weight-popup" href="#" data-toggle="modal" data-target="#popupWeight">Таблица размеров</a>)
                             </div>
                             <div class="good-info-descr-table_left-wrp col-xl-5 col-lg-5 col-md-5 col-sm-4 col-6 d-flex mt-2">
                                 <div class="good-info-descr-table__title">
@@ -304,11 +303,23 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="popupWeight" tabindex="-1" role="dialog" aria-labelledby="popupWeight" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="popup-weight px-2 m-auto" id="popupWeight">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="popup-weight_wrp">
+                    <img class="popup-weight__img" src="dist/img/weight.jpg"> 
+                </div>
+             </div>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js"></script>
     <script src="dist/plugins/magic360-commercial/magic360/magic360.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="dist/js/app.js"></script>
 </body>
