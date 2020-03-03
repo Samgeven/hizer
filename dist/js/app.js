@@ -107,16 +107,6 @@ $(document).ready(function() {
         galleryTop.css("top", topOffset < 375 ? topOffset : 375)
     })
 });
-// Всплывающие окна
-/*
-$('.weight-popup').magnificPopup({
-    type:'image',
-    midClick: true,
-    removalDelay: 300,
-    mainClass: 'mfp-fade'
-  });
-
-*/
 // Сортировка товаров
 
 $(document).ready(function() {

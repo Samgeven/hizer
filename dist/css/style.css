@@ -1,19 +1,17 @@
 @charset "UTF-8";
-* {
-  transition: 0.2s; }
-  *:hover {
-    transition: 0.2s; }
-
 body {
   font-family: "Geometria", sans-serif;
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+  transition: 0.2s; }
 
 a {
-  color: #212121; }
+  color: #212121;
+  transition: 0.2s; }
   a:hover {
     color: #E30C13;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: 0.2s; }
 
 h1 {
   font-size: 2.25rem;
